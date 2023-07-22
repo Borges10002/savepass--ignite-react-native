@@ -1,10 +1,11 @@
-import styled from 'styled-components/native';
-import Feather from '@expo/vector-icons/Feather';
-import { LinearGradient } from 'expo-linear-gradient';
-import { RFValue } from 'react-native-responsive-fontsize';
+import styled from "styled-components/native";
+import Feather from "@expo/vector-icons/Feather";
+
+import { RFValue } from "react-native-responsive-fontsize";
+import { LinearGradient } from "expo-linear-gradient";
 
 export const Container = styled(LinearGradient).attrs({
-  end: { x: 1, y: 0 }
+  end: { x: 1, y: 0 },
 })`
   border: 1px #e3e4e5;
   flex-direction: row;
@@ -31,15 +32,15 @@ export const PassData = styled.View`
 
 export const Title = styled.Text`
   margin-bottom: ${RFValue(4)}px;
-  font-family: 'Rubik_400Regular';
+  font-family: "Rubik_400Regular";
   font-size: ${RFValue(13)}px;
-  color: #888D97;
+  color: #888d97;
 `;
 
 export const Password = styled.Text`
-  font-family: 'Rubik_500Medium';
+  font-family: "Rubik_500Medium";
   font-size: ${RFValue(15)}px;
-  color: #1967FB;
+  color: #1967fb;
 `;
 
 export const LoginData = styled.View`
@@ -48,13 +49,13 @@ export const LoginData = styled.View`
 
 export const BoldTitle = styled.Text`
   margin-bottom: ${RFValue(4)}px;
-  font-family: 'Rubik_500Medium';
+  font-family: "Rubik_500Medium";
   font-size: ${RFValue(15)}px;
-  color: #3D434D;
+  color: #3d434d;
 `;
 
 export const Email = styled.Text`
-  font-family: 'Rubik_400Regular';
+  font-family: "Rubik_400Regular";
   font-size: ${RFValue(13)}px;
-  color: #888D97;
+  color: #888d97;
 `;
