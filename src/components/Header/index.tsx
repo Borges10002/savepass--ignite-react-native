@@ -57,7 +57,7 @@ export function Header({ user }: HeaderProps) {
 
             <TextContainer>
               <HelloMessage>
-                Bem-Vindo <BoldText>{user.name}</BoldText>
+                Bem-Vindo SavePass <BoldText>{user.name}</BoldText>
               </HelloMessage>
 
               <SecondaryMessage>Sinta-se seguro aqui</SecondaryMessage>

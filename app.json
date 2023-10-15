@@ -2,10 +2,11 @@
   "expo": {
     "name": "savepass",
     "slug": "savepass",
+    "scheme": "savepass",
     "version": "1.0.0",
-    "assetBundlePatterns": [
-      "**/*"
-    ],
+    "assetBundlePatterns": ["**/*"],
+    "platforms": ["ios", "android"],
+
     "icon": "./assets/images/icon.png",
     "splash": {
       "image": "./assets/images/splash.png",
@@ -17,7 +18,11 @@
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#E5E5E5"
       }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "c19e9551-3b7d-4e8b-82ab-4a48c3ff142b"
+      }
     }
-  },
-  "name": "savepass"
+  }
 }
